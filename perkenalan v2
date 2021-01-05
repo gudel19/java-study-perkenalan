@@ -1,0 +1,60 @@
+package pkg202069040005;
+import java.util.Scanner;
+class perkenalan{
+    public static void main (String [] args) {
+   
+        Scanner scan=new Scanner(System.in);
+      
+        String nim; String nama;String kelurahan;String kecamatan;
+        String kabupaten;String provinsi;String email;String asal;String jurusan;
+        String semester;String kelas; String no;
+        
+        System.out.println("Masukkan data anda dengan benar!");
+        System.out.println();
+        System.out.print("NIM                 :");
+        nim=scan.nextLine();
+        System.out.print("NAMA                :");
+        nama=scan.nextLine();
+        System.out.print("KELURAHAN/DESA      :");
+        kelurahan=scan.nextLine();
+        System.out.print("KECAMATAN           :");
+        kecamatan=scan.nextLine();
+        System.out.print("KABUPATEN           :");
+        kabupaten=scan.nextLine();
+        System.out.print("PROVINSI            :");
+        provinsi=scan.nextLine();
+        System.out.print("EMAIL               :");
+        email=scan.nextLine();
+        System.out.print("NOMER HP            :");
+        no=scan.nextLine();
+        System.out.print("ASAL INSTANSI       :");
+        asal=scan.nextLine();
+        System.out.print("JURUSAN             :");
+        jurusan=scan.nextLine();
+        System.out.print("SEMESTER            :");
+        semester=scan.nextLine();
+        System.out.print("KELAS               :");
+        kelas=scan.nextLine();
+        
+        System.out.println("======================================");
+     
+        System.out.println("Perkenalkan Nama saya "+nama+",{"+(nim)+"}");
+        System.out.println("Dari jurusan "+jurusan+" ");
+        System.out.println("SEMESTER "+semester+" ");
+        System.out.println("Kelas "+kelas+" ");
+        System.out.println(""+asal+"");
+        System.out.println("Alamat saya di "+ kelurahan +", kecamatan " + kecamatan + ", kabupaten "+ kabupaten +", provinsi " + provinsi +".");
+        System.out.println("email     : "+email+"");
+        System.out.println("nomer Hp  : "+no+"");
+        
+        
+        
+        
+        System.out.println("================ TERIMA KASIH ======================");
+                      System.out.println ("==  Akhmad Aldi  ==");
+                     System.out.println("===  202069040005  ===");
+            
+      
+    }
+}
+
