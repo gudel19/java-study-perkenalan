@@ -1,0 +1,25 @@
+
+public class OperatorAnd {
+
+  
+    public static void main(String[] args) {
+        
+        int i = 0;
+int j = 12;
+boolean test= false;
+
+
+
+//demonstrasi &&
+test = (i > 12) && (j++ > 9);
+System.out.println(i);
+System.out.println(j);
+System.out.println(test);
+
+//demonstrasi &
+test = (i > 10) & (j++ > 9);
+System.out.println(i);
+System.out.println(j);
+System.out.println(test);
+
+System.out.println("Akhmad aldi 202069040005");
