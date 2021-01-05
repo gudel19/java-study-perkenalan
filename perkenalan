@@ -1,0 +1,20 @@
+
+public class perkenalan {
+
+   
+    public static void main(String[] args) {
+     
+        
+          System.out.println("perkenalkan Nama saya akhmad aldi");
+            System.out.println("dari Jurusan Teknik Informatika");
+                      System.out.println("semester 1 ");
+System.out.println("kelas A ");
+System.out.println("Universitas yudharta pasuruan");
+System.out.println("Alamat saya di rt 05 / rw 04 geneng timur Ledug prigen ");
+System.out.println("email:akhmad aldi15@gmail.com");
+System.out.println("nomer hp : 085334634129");
+System.out.println("nim : 202069040005");
+
+    }
+    
+}
