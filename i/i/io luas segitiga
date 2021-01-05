@@ -1,0 +1,29 @@
+package pkg202069040005;
+import java.util.Scanner;
+
+public class luassegitiga {
+    
+    public static void main(String[] args) {
+        Double luas;
+        int alas, tinggi;
+        
+        Scanner baca = new Scanner(System.in);
+        System.out.println("== menghitung luas Segitiga ==");
+        
+        System.out.print("Input alas: ");
+        alas = baca.nextInt();
+        System.out.print("Input tinggi: ");
+        tinggi = baca.nextInt();
+        
+        luas = Double.valueOf((alas * tinggi) / 2);
+        
+        System.out.println("Luas = " + luas);
+        
+        
+        
+        System.out.println("===================================================");
+        System.out.println ("== Akhmad Aldi ==");
+        System.out.println("=== 202069040005 ===");
+    }
+    
+}
