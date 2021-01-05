@@ -1,2 +1,3 @@
 # java-study-perkenalan
-tugas pertama kuliah
+tugas Mata Kuliah pemerograman dasar semester 1
+universitas Yudharta Pasuruan
