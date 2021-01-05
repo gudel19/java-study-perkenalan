@@ -1,0 +1,18 @@
+
+public class operatorkondisi {
+
+    public static void main(String[] args) {
+        
+        String status = " : ";
+        int grade = 80;
+
+//mendapatkan status pelajar
+status = (grade >= 60)? "Lulus" : "tidak Lulus";
+
+//print status
+System.out.println( status );
+
+System.out.println("Akhmad aldi (202069040005)");
+    }
+    
+}
